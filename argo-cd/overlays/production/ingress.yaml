@@ -12,11 +12,11 @@ spec:
   - http:
       paths:
       - path: /
-        pathType: ImplementationSpecific
+        pathType: Prefix
         backend:
           service:
            name: argocd-server
            port:
              number: 80
-    host: argo-cd.104.196.111.81.xip.io
+    host: cd.ubyon.com
 
